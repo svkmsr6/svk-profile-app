@@ -4,27 +4,11 @@ import {
   BrowserRouter as Router,
   Switch,
   Route
-} from "react-router-dom";
+} from 'react-router-dom';
+import { routeLinks } from './utils/route-config-utils';
 
 function App() {
-  const routeLinks = [{
-      url:"/",
-      text: "INTRO",
-      name: "Intro",
-      exact: true
-  },{
-      url:"/work-ex",
-      text: "WORK EXPERIENCE",
-      name: "WorkExp"
-  },{
-      url:"/my-skills",
-      text: "MY SKILLS",
-      name: "MySkills"
-  },{
-      url:"/interests",
-      text: "INTERESTS",
-      name: "Interests"
-  }];
+  
   return (
     <Router>
       <div className="App">
@@ -32,8 +16,8 @@ function App() {
         <Switch>
           {
             routeLinks.map(link => (
-              <Route path={link.url}>
-                <link.name />
+              <Route path={link.url} exact={link.exact}>
+                < link.comp />
               </Route>
             ))
           }
