@@ -1,0 +1,7 @@
+.ribbon-text-container {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.ribbon-text-container > .ribbon-text {
+    padding: 2rem;
+}

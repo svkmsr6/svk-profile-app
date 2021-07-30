@@ -1,32 +1,15 @@
 .App {
-  text-align: center;
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 0 20px;
+.bg-grey {
+  background-color: #afb8f1;
 }
 
-.App-header > a {
-  color: #afb8f1;
-  text-decoration: none;
+.bg-orange {
+  background-color: #facc88;
 }
 
-.App-header > a.active {
-  text-decoration: underline;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-green {
+  background-color: rgb(185, 242, 185);
 }
