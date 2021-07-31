@@ -15,10 +15,23 @@
     font-size: 1.5rem;
 }
 
-.personal-info-container .info{
+.personal-info-container > .info-list {
+    list-style-type: none;
+}
+
+.personal-info-container > .info-list > .info-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.personal-info-container > .info-list > .info-list-item > .icon{
+    margin-right: 10px;
+}
+
+.personal-info-container > .info-list > .info-list-item > .info{
     font-weight: bolder;
 }
 
-.personal-info-container .info > .data{
+.personal-info-container > .info-list > .info-list-item > .info > .data{
     font-size: 1rem;
 }
