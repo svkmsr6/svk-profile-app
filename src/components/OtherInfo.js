@@ -14,7 +14,7 @@ function OtherInfo(props) {
                     <li className="info-list-item">
                         <span class="material-icons icon">translate</span>
                         <span className="info">
-                            <p classname="data">Bengali, English, Hindi, Kannada, Telugu, Urdu, Sanskrit</p>
+                            <p classname="data">Bengali, English, Hindi, Kannada, Telugu, Urdu</p>
                         </span>
                     </li>
                     <li className="info-list-item">
