@@ -5,7 +5,7 @@ function PersonalInfo(props) {
     return (
         <div className="personal-info-container">
                 <p className="name">Souvik Misra</p>
-                <p className="desig">Software Engineer - Senior Frontend</p>
+                <p className="desig">Software Engineer - Senior (Frontend)</p>
                 <ul className="info-list">
                     <li className="info-list-item">
                         <span class="material-icons icon">room</span>
