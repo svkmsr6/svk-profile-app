@@ -15,5 +15,7 @@
   }
   
   .App-header > a.active {
-    text-decoration: underline;
+    background: beige;
+    padding: 15px;
+    color: darkslategrey;
   }
