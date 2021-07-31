@@ -17,10 +17,6 @@
 .my-skills-container > .skill-container > .skill-img{
     height: 25vh;
 }
-.my-skills-container > .skill-container > .skill-img:hover{
-    height: 28vh;
-    background-color: beige;
-}
 
 .my-skills-container > .skill-container > .skill-text {
     font-size: 2rem;
