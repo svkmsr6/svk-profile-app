@@ -9,7 +9,3 @@
     border: 5px solid rgb(130, 140, 235);
     border-radius: 60%;
 }
-
-.avatar-container > img:hover {
-    height: 33vh;
-}
