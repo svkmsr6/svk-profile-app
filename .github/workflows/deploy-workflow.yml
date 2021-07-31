@@ -20,7 +20,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - name: Checkout the latest code from the 'master' branch
+    - name: Checkout the latest code from the 'develop' branch
       uses: actions/checkout@v2
     - name: Install and use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
@@ -32,8 +32,14 @@ jobs:
     #   run: npm test
     - name: Generate application build🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
       run: npm run build
-    - name: Deploy to Github Pages 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+    - name: Deploy to release
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        branch: release # The branch the action should deploy to.
-        folder: build # The folder the action should deploy
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        publish_dir: ./build
+        publish_branch: release
+    # - name: Deploy to Github Pages 🚀
+    #   uses: JamesIves/github-pages-deploy-action@4.1.4
+    #   with:
+    #     branch: release # The branch the action should deploy to.
+    #     folder: build # The folder the action should deploy
