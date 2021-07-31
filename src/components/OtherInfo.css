@@ -1,0 +1,35 @@
+.other-info-container {
+    flex: 0 0 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.other-info-container > .title{
+    font-size: 2.5rem;
+}
+
+.other-info-container > .subtitle{
+    font-size: 1.5rem;
+}
+
+.other-info-container > .info-list {
+    list-style-type: none;
+}
+
+.other-info-container > .info-list > .info-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.other-info-container > .info-list > .info-list-item > .icon{
+    margin-right: 10px;
+}
+
+.other-info-container > .info-list > .info-list-item > .info{
+    font-weight: bolder;
+}
+
+.other-info-container > .info-list > .info-list-item > .info > .data{
+    font-size: 1rem;
+}

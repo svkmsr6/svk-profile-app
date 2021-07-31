@@ -16,8 +16,8 @@ function MySkills(props) {
         },
         {
             src: '/javascript.png',
-            text: 'JavaScript',
-            desc: 'Skilled for 8+ years. Required for adding behaviour and logic to the web application.'
+            text: 'JavaScript ES6',
+            desc: 'Skilled for 8+ years. Required for adding behaviour and logic to the web application. Adept in both ES5 and ES6+.'
         },
         {
             src: '/vue-js.png',
