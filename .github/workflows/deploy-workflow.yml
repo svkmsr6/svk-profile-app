@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [12.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -27,7 +27,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install all the required dependencies for this CI/CD pipeline via NPM
-      run: npm ci
+      run: npm install
     # - name: Run unit tests on the checked out code
     #   run: npm test
     - name: Generate application build🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
