@@ -28,8 +28,8 @@ function MySkills(props) {
             text: 'React JS'
         },
         {
-            src: '/command-window.png',
-            text: 'Terminal'
+            src: '/github.png',
+            text: 'Git'
         },
         {
             src: '/python.png',
