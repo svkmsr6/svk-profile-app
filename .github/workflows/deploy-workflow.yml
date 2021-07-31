@@ -35,5 +35,5 @@ jobs:
     - name: Deploy to Github Pages 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        branch: main # The branch the action should deploy to.
+        branch: release # The branch the action should deploy to.
         folder: build # The folder the action should deploy
