@@ -56,7 +56,7 @@ function MySkills(props) {
             <div className="my-skills-container">
                 {
                     skills.map((skill, id) => (
-                        <div className="skill-container" onClick={handleClickOnSkill.bind(null,id)}>
+                        <div key={id} className="skill-container" onClick={handleClickOnSkill.bind(null,id)}>
                             <img className="skill-img" src={skill.src} alt={skill.text} />
                             <p className="skill-text">{skill.text}</p>
                         </div>

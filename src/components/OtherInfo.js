@@ -13,19 +13,19 @@ function OtherInfo(props) {
         <div className="other-info-container">
                 <ul className="info-list">
                     <li className="info-list-item">
-                        <span class="material-icons icon">outlined_flag</span>
+                        <span className="material-icons icon">outlined_flag</span>
                         <span className="info">
                             <p className="data">{data.nationality}</p>
                         </span>
                     </li>
                     <li className="info-list-item">
-                        <span class="material-icons icon">translate</span>
+                        <span className="material-icons icon">translate</span>
                         <span className="info">
-                            <p classname="data">{data.languages.join(',')}</p>
+                            <p className="data">{data.languages.join(',')}</p>
                         </span>
                     </li>
                     <li className="info-list-item">
-                        <span class="material-icons icon">child_care</span>
+                        <span className="material-icons icon">child_care</span>
                         <span className="info">
                             <p className="data">{getFormattedDate(day, month, year)}</p>
                         </span>

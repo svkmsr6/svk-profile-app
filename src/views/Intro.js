@@ -49,7 +49,7 @@ function Intro(props) {
             <PersonalInfo data={generalInfo.personalInfo} />
             <OtherInfo data={generalInfo.otherInfo} />
             {
-                generalInfo.quotes.map(quote => <Ribbon bgColor={quote.bgColor} text={quote.text} />)
+                generalInfo.quotes.map((quote, idx) => <Ribbon key={idx} bgColor={quote.bgColor} text={quote.text} />)
             }
         </div>
     );

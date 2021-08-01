@@ -23,8 +23,8 @@ function Interests(props) {
     return (
         <div className="interest-container">
             {
-                interests.map(interest => (
-                    <div className="interest">
+                interests.map((interest, idx) => (
+                    <div key={idx} className="interest">
                         <img className="interest-img" src={interest.src} alt={interest.text} />
                         <p className="interest-text">{interest.text}</p>
                     </div>

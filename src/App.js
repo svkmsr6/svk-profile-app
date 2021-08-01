@@ -15,8 +15,8 @@ function App() {
         <Header routeLinks={routeLinks} />
         <Switch>
           {
-            routeLinks.map(link => (
-              <Route path={link.url} exact={link.exact}>
+            routeLinks.map((link, idx) => (
+              <Route key={idx} path={link.url} exact={link.exact}>
                 < link.comp />
               </Route>
             ))
