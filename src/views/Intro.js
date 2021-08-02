@@ -35,11 +35,11 @@ function Intro(props) {
             },
             {
                 bgColor: 'grey',
-                text: '\'I have around 8 years of experience in the industry, starting off as a simple JavaScript ES5 developer, coupled with HTML5/CSS3 and ending up finally, as a React and VueJS engineer!\''
+                text: '\'I like to learn, practice, code and teach Frontend development, Coding and DevOps best practices. The goal is to become a Senior Software Architect and create lucid, learnable content on the same and preach!\''
             },
             {
                 bgColor: 'green',
-                text: '\'I have around 8 years of experience in the industry, starting off as a simple JavaScript ES5 developer, coupled with HTML5/CSS3 and ending up finally, as a React and VueJS engineer!\''
+                text: '\'I have also recently developed an interest in Time Series Analysis and Blockchain Technology. These skills and technologies have an emerging importance in the job market.\''
             }
         ]
     };
