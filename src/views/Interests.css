@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .interest-container > .interest {
@@ -11,12 +12,12 @@
     text-align: center;
 }
 
-.interest-container > .interest > .interest-img {
-    height: 33vh;
+.interest-container > .interest:hover {
+    animation: fade-glow-2 0.25s ease-in forwards;
 }
 
-.interest-container > .interest > .interest-img:hover {
-    height: 34vh;
+.interest-container > .interest > .interest-img {
+    height: 33vh;
 }
 
 .interest-container > .interest > .interest-text {

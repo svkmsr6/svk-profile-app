@@ -38,3 +38,30 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+
+@keyframes fade-glow {
+  to {
+    background-color: lightgray;
+    color: darkslategrey;
+  }
+}
+
+@keyframes fade-glow-2 {
+  to {
+    background-color: rgb(220, 220, 250);
+  }
+}
+
+@keyframes emphasis-2 {
+  to {
+    padding-top: 12px;
+    box-shadow: 10px 10px 10px 10px rgb(190, 189, 211);
+  }
+}
+
+@keyframes halo {
+  to {
+    opacity: 1;
+    box-shadow: 20px 20px 20px 20px rgb(69, 69, 72);
+  }
+}

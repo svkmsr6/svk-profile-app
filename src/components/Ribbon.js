@@ -3,8 +3,8 @@ import './Ribbon.css';
 
 function Ribbon(props) {
     return (
-        <div className="ribbon-text-container">
-            <p className={`ribbon-text bg-${props.bgColor || 'orange'}`}>{props.text || 'No content'}</p>
+        <div className={`ribbon-text-container bg-${props.bgColor || 'orange'}`}>
+            <p className="ribbon-text">{props.text || 'No content'}</p>
         </div>
     );
 }

@@ -11,11 +11,15 @@
   
   .App-header > a {
     color: #afb8f1;
+    padding: 15px;
     text-decoration: none;
   }
-  
+
+  .App-header > a:hover {
+    animation: fade-glow 0.25s ease-in forwards;
+  }
+
   .App-header > a.active {
-    background: beige;
-    padding: 15px;
+    background-color: lightgray;
     color: darkslategrey;
   }

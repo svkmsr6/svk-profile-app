@@ -16,8 +16,7 @@
 }
 
 .my-skills-container > .skill-container:hover {
-    padding-top: 12px;
-    box-shadow: 10px 10px 10px 10px rgb(190, 189, 211);
+    animation: emphasis-2 0.5s ease-in forwards;
 }
 
 .my-skills-container > .skill-container > .skill-img{
