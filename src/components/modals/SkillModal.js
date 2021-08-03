@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Avatar from '../Avatar';
 import './SkillModal.css';
 
 function SkillModal(props) {
+    useEffect(() => {
+        document.querySelector('body').style.overflow = 'hidden';
+        return () => {
+            document.querySelector('body').style.overflow = 'auto';
+        }
+    },[]);
     return (
-        <div className="skill-modal" style={{ display: props.show ? 'block':'none'}}>
+        <div className="skill-modal">
             <div className="skill-modal-content">
                 <span className="close" onClick={() => props.toggle(false)}>&times;</span>
                 <h2>{props.content.text}</h2>

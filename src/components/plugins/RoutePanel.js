@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 import './RoutePanel.css';
 
 function RoutePanel(props) {
+    useEffect(() => {
+        document.querySelector('body').style.overflow = 'hidden';
+        return () => {
+            document.querySelector('body').style.overflow = 'auto';
+        }
+    },[]);
     return (
         <div className="route-panel">
             <div className="route-panel-links">

@@ -63,7 +63,7 @@ function MySkills(props) {
                     ))
                 }
             </div>
-            <SkillModal show={ showModal } toggle={toggleModal} content={skills[index]} />
+            {showModal ? <SkillModal toggle={toggleModal} content={skills[index]} /> : null}
         </>
     );
 }
