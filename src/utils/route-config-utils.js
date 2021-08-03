@@ -13,7 +13,7 @@ export const routeLinks = [{
     url:"/work-ex",
     text: "WORK EXPERIENCE",
     comp: WorkExp,
-    icon: 'corporate_fare'
+    icon: 'work'
 },{
     url:"/my-skills",
     text: "MY SKILLS",

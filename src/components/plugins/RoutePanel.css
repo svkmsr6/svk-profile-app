@@ -14,7 +14,7 @@
     width: 0%;
     background-color: #282c34;
     height: 100%;
-    animation: peek-from-left 0.25s ease-in-out forwards;
+    animation: peek-from-left 0.125s ease-in-out forwards;
 }
 
 .route-panel > .route-panel-links > a {

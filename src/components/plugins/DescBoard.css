@@ -1,0 +1,17 @@
+.desc-board {
+    height: 75.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.desc-board.active {
+    align-items: flex-start;
+}
+
+.desc-board.inactive {
+    background-color: lightgray;
+    color: #777171;
+}

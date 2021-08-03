@@ -23,7 +23,8 @@ function Intro(props) {
                 day:6,
                 month:12,
                 year: 1990
-            }
+            },
+            edu: 'B.Tech (ECE) from Heritage Institute of Technology - (2009-2013)'
         },
         pic:{
             url:'/svk.jpeg',

@@ -17,6 +17,10 @@
     animation:fade-glow-2 0.25s ease forwards;
 }
 
+.work-exp-container > .work-exp.active-org {
+    background-color: rgb(220, 220, 250);
+}
+
 .work-exp-container > .work-exp > .org-img {
     height: 8vh;
 }

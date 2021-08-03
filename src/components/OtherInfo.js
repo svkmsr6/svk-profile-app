@@ -13,6 +13,12 @@ function OtherInfo(props) {
         <div className="other-info-container">
                 <ul className="info-list">
                     <li className="info-list-item">
+                        <span className="material-icons icon">school</span>
+                        <span className="info">
+                            <p className="data">{data.edu}</p>
+                        </span>
+                    </li>
+                    <li className="info-list-item">
                         <span className="material-icons icon">outlined_flag</span>
                         <span className="info">
                             <p className="data">{data.nationality}</p>
