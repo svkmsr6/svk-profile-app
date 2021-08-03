@@ -27,7 +27,7 @@ function OtherInfo(props) {
                     <li className="info-list-item">
                         <span className="material-icons icon">translate</span>
                         <span className="info">
-                            <p className="data">{data.languages.join(',')}</p>
+                            <p className="data">{data.languages.join(', ')}</p>
                         </span>
                     </li>
                     <li className="info-list-item">
