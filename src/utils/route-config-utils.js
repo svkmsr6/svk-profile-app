@@ -8,7 +8,7 @@ export const routeLinks = [{
     text: "INTRO",
     comp: Intro,
     exact: true,
-    icon: 'home'
+    icon: 'badge'
 },{
     url:"/work-ex",
     text: "WORK EXPERIENCE",

@@ -13,7 +13,7 @@
 }
 
 .interest-container > .interest:hover {
-    animation: fade-glow-2 0.25s ease-in forwards;
+    animation: fade-glow-2 0.25s ease forwards;
 }
 
 .interest-container > .interest > .interest-img {

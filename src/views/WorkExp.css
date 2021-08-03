@@ -1,0 +1,26 @@
+.work-exp-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.work-exp-container > .work-exp {
+    flex: 0 0 23%;
+    cursor: pointer;
+    text-align: center;
+    padding: 12px;
+}
+
+.work-exp-container > .work-exp:hover {
+    animation:fade-glow-2 0.25s ease forwards;
+}
+
+.work-exp-container > .work-exp > .org-img {
+    height: 8vh;
+}
+
+.work-exp-container > .work-exp > .org-text {
+    font-size: 1.1rem;
+}

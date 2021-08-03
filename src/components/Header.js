@@ -10,7 +10,7 @@ function Header(props) {
         <>
             <header className="App-header">
                 <span className="material-icons menu" onClick={() => setOpen(!isOpen)}>{isOpen ? 'close':'menu'}</span>
-                <Link to="/" exact="true">Souvik's Online Resume</Link>
+                <Link to="/" exact="true">SOUVIK MISRA</Link>
             </header>
             {isOpen ? <RoutePanel routeLinks={routeLinks} toggler={setOpen} />: null}
         </>
