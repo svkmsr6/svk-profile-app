@@ -17,6 +17,7 @@ function RoutePanel(props) {
                     title={link.text}
                 >
                     <span className="material-icons">{link.icon}</span>
+                    <p className="text">{link.text}</p>
                 </NavLink>
                 ))
                 } 

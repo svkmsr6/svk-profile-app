@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 0%;
     background-color: #282c34;
     height: 100%;
@@ -21,14 +21,19 @@
     text-decoration: none;
     color: rgb(220, 220, 250);
     cursor: pointer;
-    margin: 10px 0;
     padding: 4px;
+    display: flex;
+    width: 97%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.route-panel > .route-panel-links > a > span {
+    margin: 0 12px;
 }
 
 .route-panel > .route-panel-links > a.active {
     background-color: rgb(91, 91, 99);
-    border: 1px solid rgb(91, 91, 99);
-    border-radius: 60%;
 }
 
 .route-panel > .route-panel-links > a:hover {
