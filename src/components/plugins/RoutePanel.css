@@ -11,10 +11,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 4%;
+    width: 0%;
     background-color: #282c34;
     height: 100%;
-    transition: width 2s;
+    animation: peek-from-left 0.25s ease forwards;
 }
 
 .route-panel > .route-panel-links > a {

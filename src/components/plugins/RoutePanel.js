@@ -12,10 +12,11 @@ function RoutePanel(props) {
                     key={idx} 
                     to={link.url} 
                     activeClassName="active" 
-                    exact={link.exact} 
+                    exact={link.exact}
+                    onClick={() => props.toggler(false)}
                     title={link.text}
                 >
-                    <span className="material-icons" onClick={() => props.toggler(false)}>{link.icon}</span>
+                    <span className="material-icons">{link.icon}</span>
                 </NavLink>
                 ))
                 } 

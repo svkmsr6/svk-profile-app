@@ -73,3 +73,12 @@
     border-radius: 60%;
   }
 }
+
+@keyframes peek-from-left {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 4%;
+  }
+}
