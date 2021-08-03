@@ -25,7 +25,7 @@ function OtherInfo(props) {
                         </span>
                     </li>
                     <li className="info-list-item">
-                        <span className="material-icons icon">child_care</span>
+                        <span className="material-icons icon">cake</span>
                         <span className="info">
                             <p className="data">{getFormattedDate(day, month, year)}</p>
                         </span>

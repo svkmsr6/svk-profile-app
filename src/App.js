@@ -8,11 +8,10 @@ import {
 import { routeLinks } from './utils/route-config-utils';
 
 function App() {
-  
   return (
     <Router>
       <div className="App">
-        <Header routeLinks={routeLinks} />
+        <Header/>
         <Switch>
           {
             routeLinks.map((link, idx) => (

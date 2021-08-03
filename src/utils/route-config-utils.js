@@ -7,17 +7,21 @@ export const routeLinks = [{
     url:"/",
     text: "INTRO",
     comp: Intro,
-    exact: true
+    exact: true,
+    icon: 'home'
 },{
     url:"/work-ex",
     text: "WORK EXPERIENCE",
-    comp: WorkExp
+    comp: WorkExp,
+    icon: 'corporate_fare'
 },{
     url:"/my-skills",
     text: "MY SKILLS",
-    comp: MySkills
+    comp: MySkills,
+    icon: 'construction'
 },{
     url:"/interests",
     text: "INTERESTS",
-    comp: Interests
+    comp: Interests,
+    icon: 'sports_esports'
 }]; 

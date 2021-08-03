@@ -1,25 +1,21 @@
-.App-header {
+  .App-header {
     background-color: #282c34;
-    min-height: 10vh;
+    min-height: 1vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: calc(10px + 2vmin);
     color: white;
-    padding: 0 20px;
+    padding: 0 15px;
+  }
+
+  .App-header > .menu {
+    cursor: pointer;
   }
   
   .App-header > a {
     color: #afb8f1;
-    padding: 15px;
+    padding: 8px;
+    margin: 0;
     text-decoration: none;
-  }
-
-  .App-header > a:hover {
-    animation: fade-glow 0.25s ease-in forwards;
-  }
-
-  .App-header > a.active {
-    background-color: lightgray;
-    color: darkslategrey;
   }

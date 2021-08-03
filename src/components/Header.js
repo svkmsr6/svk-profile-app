@@ -1,14 +1,19 @@
-import React from 'react';
-import { NavLink } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import { routeLinks } from '../utils/route-config-utils';
+import RoutePanel from './plugins/RoutePanel';
 import './Header.css';
 
 function Header(props) {
+    const [isOpen, setOpen] = useState(false);
     return (
-        <header className="App-header">
-            {
-                props.routeLinks.map((link, idx) => <NavLink key={idx} to={link.url} activeClassName="active" exact={link.exact} >{link.text}</NavLink>)
-            }
-        </header>
+        <>
+            <header className="App-header">
+                <span className="material-icons menu" onClick={() => setOpen(!isOpen)}>{isOpen ? 'close':'menu'}</span>
+                <Link to="/" exact="true">Souvik's Online Resume</Link>
+            </header>
+            {isOpen ? <RoutePanel routeLinks={routeLinks} toggler={setOpen} />: null}
+        </>
         
     );
 }

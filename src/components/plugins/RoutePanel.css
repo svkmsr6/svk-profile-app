@@ -1,0 +1,36 @@
+.route-panel {
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    z-index: 1000;
+    background-color: #292727d4;
+}
+
+.route-panel > .route-panel-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 4%;
+    background-color: #282c34;
+    height: 100%;
+    transition: width 2s;
+}
+
+.route-panel > .route-panel-links > a {
+    text-decoration: none;
+    color: rgb(220, 220, 250);
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 4px;
+}
+
+.route-panel > .route-panel-links > a.active {
+    background-color: rgb(91, 91, 99);
+    border: 1px solid rgb(91, 91, 99);
+    border-radius: 60%;
+}
+
+.route-panel > .route-panel-links > a:hover {
+    animation: halo-glow 0.25s ease forwards;
+}
