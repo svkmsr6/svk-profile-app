@@ -15,7 +15,7 @@ function SkillModal(props) {
                 <span className="close" onClick={() => props.toggle(false)}>&times;</span>
                 <h2>{props.content.text}</h2>
                 <div className="skill-modal-info">
-                    <Avatar alt={props.content.text} src={props.content.src} />
+                    <Avatar alt={props.content.text} src={props.content.src} frameShape="rect" />
                     <p>{props.content.desc}</p>
                 </div>
             </div>

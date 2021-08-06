@@ -4,7 +4,7 @@ import './Avatar.css';
 function Avatar(props) {
     return (
         <div className="avatar-container">
-            <img alt={props.alt} src={props.src} />
+            <img class={props.frameShape} alt={props.alt} src={props.src} />
         </div>
     );
 }
