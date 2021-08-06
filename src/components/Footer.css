@@ -1,11 +1,11 @@
 .App-footer {
     background-color: #282c34;
-    height: 2vh;
+    height: 3vh;
     color: white;
     text-align: center;
     padding: 8px;
-    position: static;
-    top: 100vh;
+    position: absolute;
+    top: 96vh;
     bottom: 0;
     width: 100%;
 }
