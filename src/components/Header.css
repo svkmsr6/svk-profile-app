@@ -7,6 +7,10 @@
     font-size: calc(10px + 2vmin);
     color: white;
     padding: 0 15px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
   }
 
   .App-header > .menu {

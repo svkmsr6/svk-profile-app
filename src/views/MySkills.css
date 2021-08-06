@@ -4,6 +4,8 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 24px;
+    padding-top: 60px;
+    height: 87vh;
 }
 
 .my-skills-container > .skill-container {
@@ -12,7 +14,6 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    padding: 10px;
 }
 
 .my-skills-container > .skill-container:hover {

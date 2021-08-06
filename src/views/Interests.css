@@ -4,10 +4,12 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    padding-top: 60px;
+    height: 88vh;
 }
 
 .interest-container > .interest {
-    flex: 0 0 40%;
+    flex: 0 0 20%;
     padding: 2.07rem;
     text-align: center;
 }
