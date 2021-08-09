@@ -1,8 +1,10 @@
 .route-panel {
     position: absolute;
-    height: 120%;
+    height: 97vh;
     width: 100%;
     z-index: 1000;
+    bottom: 0;
+    top: 2.2rem;
     background-color: #292727d4;
 }
 
@@ -38,4 +40,24 @@
 
 .route-panel > .route-panel-links > a:hover {
     animation: halo-glow 0.25s ease forwards;
+}
+
+@media (min-width: 600px){
+    .route-panel {
+        height: 97vh;
+        top: 2.3rem;
+    }
+}
+
+@media (min-width: 900px){
+    .route-panel {
+        top: 2.9rem;
+    }
+}
+
+@media (min-width: 1100px){ 
+    .route-panel {
+        height: 96vh;
+        top: 3.1rem;
+    }
 }

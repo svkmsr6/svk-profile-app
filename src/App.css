@@ -1,3 +1,7 @@
+/* #root {
+  overflow-x: hidden;
+} */
+
 .App {
   display: block;
   width: 100%;
@@ -79,6 +83,28 @@
     width: 0%;
   }
   to {
-    width: 14%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 600px){
+  @keyframes peek-from-left {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 20%;
+    }
+  }
+}
+
+@media (min-width: 900px){
+  @keyframes peek-from-left {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 15%;
+    }
   }
 }
