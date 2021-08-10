@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { 
   BrowserRouter as Router,
   Switch,
@@ -7,15 +7,19 @@ import {
 import { getUserDetails } from './utils/api-utils'
 import { routeLinks } from './utils/route-config-utils';
 import { UserContext } from './state-configs/contexts';
+import { userReducer } from './state-configs/reducers';
 import Header from './components/Header';
 import './App.css';
 
 function App() {
-  const [ userState, setUserState ] = useState(null);
+  const [ userState, dispatch ] = React.useReducer(userReducer, null);
   useEffect(()=>{
     (async function(){
       const payload = await getUserDetails();
-      setUserState(payload);
+      dispatch({
+        payload,
+        type:'SET_USER'
+      });
     })()
   },[]);
   return (
