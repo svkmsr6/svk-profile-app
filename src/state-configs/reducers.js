@@ -1,9 +1,7 @@
-import { getUserDetails } from '../utils/api-utils';
-
-export const userReducer = (state, action) => {
+export function userReducer(state, action) {
     switch (action.type) {
-      case "FETCH_USER":
-        return getUserDetails();
+      case "SET_USER":
+        return {...action.payload};
       default:
         return state;
     }

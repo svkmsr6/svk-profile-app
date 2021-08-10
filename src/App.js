@@ -1,24 +1,28 @@
-import React, { useEffect, useReducer } from 'react';
+import React, { useEffect, useState } from 'react';
 import { 
   BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
+import { getUserDetails } from './utils/api-utils'
 import { routeLinks } from './utils/route-config-utils';
 import { UserContext } from './state-configs/contexts';
-import { userReducer } from './state-configs/reducers';
 import Header from './components/Header';
 import './App.css';
-//import Footer from './components/Footer';
 
 function App() {
-  const [ state, dispatch ] = useReducer(userReducer, null);
-  useEffect(() => dispatch({type:'FETCH_USER'}),[]);
+  const [ userState, setUserState ] = useState(null);
+  useEffect(()=>{
+    (async function(){
+      const payload = await getUserDetails();
+      setUserState(payload);
+    })()
+  },[]);
   return (
-    <Router>
+      <UserContext.Provider value={userState}>
+        <Router>
         {
-          state?
-          <UserContext.Provider value={{ state }}>
+          userState && userState.generalInfo?
             <div className="App">
               <Header/>
               <Switch>
@@ -30,11 +34,11 @@ function App() {
                   ))
                 }
               </Switch>
-            </div>
-          </UserContext.Provider>:
+            </div>:
           <div className="App-loader">Loading....</div>
         }
-    </Router>
+        </Router>
+      </UserContext.Provider>
   );
 }
 

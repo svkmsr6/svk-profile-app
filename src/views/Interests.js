@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import { UserContext } from '../state-configs/contexts';
 import './Interests.css';
 
-function Interests(props) {
+function Interests(_props) {
     const { interests } = useContext(UserContext);
     return (
         <div className="interest-container">

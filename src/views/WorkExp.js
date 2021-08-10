@@ -3,7 +3,7 @@ import { UserContext } from '../state-configs/contexts';
 import DescBoard from '../components/plugins/DescBoard';
 import './WorkExp.css';
 
-function WorkExp(props) {
+function WorkExp(_props) {
     const { workExp } = useContext(UserContext);
     const [activeIndex, setActiveIndex] = useState(-1);
     return (

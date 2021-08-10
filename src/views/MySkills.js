@@ -3,7 +3,7 @@ import { UserContext } from '../state-configs/contexts';
 import SkillModal from '../components/modals/SkillModal';
 import './MySkills.css';
 
-function MySkills(props) {
+function MySkills(_props) {
     const { skills } = useContext(UserContext);
     const [showModal, toggleModal] = useState(false);
     const [index, setIndex] = useState(0);

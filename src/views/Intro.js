@@ -6,7 +6,7 @@ import PersonalInfo from '../components/PersonalInfo';
 import OtherInfo from '../components/OtherInfo';
 import './Intro.css';
 
-function Intro(props) {
+function Intro(_props) {
     const { generalInfo } = useContext(UserContext);
     return (
         <div className="intro-container">
