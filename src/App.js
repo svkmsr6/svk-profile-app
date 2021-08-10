@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useReducer } from 'react';
 import { 
   BrowserRouter as Router,
   Switch,
@@ -12,28 +12,28 @@ import './App.css';
 //import Footer from './components/Footer';
 
 function App() {
-  const [ state, dispatch ] = React.useReducer(userReducer, null);
-  useEffect(() => dispatch({type:'FETCH_USER'}));
+  const [ state, dispatch ] = useReducer(userReducer, null);
+  useEffect(() => dispatch({type:'FETCH_USER'}),[]);
   return (
     <Router>
-      <UserContext.Provider value={state}>
         {
           state?
-          <div className="App">
-            <Header/>
-            <Switch>
-              {
-                routeLinks.map((link, idx) => (
-                  <Route key={idx} path={link.url} exact={link.exact}>
-                    < link.comp />
-                  </Route>
-                ))
-              }
-            </Switch>
-          </div>:
+          <UserContext.Provider value={{ state }}>
+            <div className="App">
+              <Header/>
+              <Switch>
+                {
+                  routeLinks.map((link, idx) => (
+                    <Route key={idx} path={link.url} exact={link.exact}>
+                      < link.comp />
+                    </Route>
+                  ))
+                }
+              </Switch>
+            </div>
+          </UserContext.Provider>:
           <div className="App-loader">Loading....</div>
         }
-      </UserContext.Provider>
     </Router>
   );
 }
