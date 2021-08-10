@@ -64,4 +64,20 @@
 }
  
 @media (min-width: 1100px){ 
+    .personal-info-container > .name {
+        font-size: 3rem;
+    }
+    .personal-info-container > .desig {
+        font-size: 2rem;
+    }
+    .personal-info-container > .name, .personal-info-container > .desig {
+        text-align: unset;
+        padding-left: 40px;
+    }
+    .personal-info-container > .info-list {
+        width: 25vw;
+    }
+    .personal-info-container > .info-list > .info-list-item > .info > .data {
+        font-size: 1.5rem;
+    }
 }
