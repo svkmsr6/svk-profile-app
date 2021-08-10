@@ -1,25 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { UserContext } from '../state-configs/contexts';
 import './Interests.css';
 
 function Interests(props) {
-    const interests = [
-        {
-            src:'/bilingual.png',
-            text: 'Linguistics and Grammatology'
-        },
-        {
-            src:'/traveler.png',
-            text: 'Travelling'
-        },
-        {
-            src:'/documentary.png',
-            text: 'Documentaries'
-        },
-        {
-            src:'/cooking.png',
-            text: 'Cooking'
-        }
-    ];
+    const { interests } = useContext(UserContext);
     return (
         <div className="interest-container">
             {

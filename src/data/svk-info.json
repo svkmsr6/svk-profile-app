@@ -1,0 +1,139 @@
+{
+    "generalInfo": {
+        "personalInfo": {
+            "name": "Souvik Misra",
+            "desig": "Software Engineer - Senior (Frontend)",
+            "location": "Bengaluru, Karnataka, IN",
+            "email": "svkmsr6@gmail.com",
+            "phone": "+918884677455",
+            "github": "https://github.com/svkmsr6",
+            "linkedin": "https://www.linkedin.com/in/souvik-misra-0a281929/"
+        },
+        "otherInfo": {
+            "nationality": "Indian",
+            "languages": ["Bengali","English","Hindi","Kannada","Telugu","Urdu"],
+            "dob": {
+                "day":6,
+                "month":12,
+                "year": 1990
+            },
+            "edu": "B.Tech (ECE) from Heritage Institute of Technology - (2009-2013)"
+        },
+        "pic":{
+            "url": "/svk.jpeg",
+            "desc": "My Pic"
+        },
+        "quotes": [
+            {
+                "text": "'I have around 8 years of experience in the industry, starting off as a simple JavaScript ES5 developer, coupled with HTML5/CSS3 and ending up finally, as a React and VueJS engineer!'"
+            },
+            {
+                "bgColor": "grey",
+                "text": "'I like to learn, practice, code and teach Frontend development, Coding and DevOps best practices. The goal is to become a Senior Software Architect and create lucid, learnable content on the same and preach!'"
+            },
+            {
+                "bgColor": "green",
+                "text": "'I have also recently developed an interest in Time Series Analysis and Blockchain Technology. These skills and technologies have an emerging importance in the job market.'"
+            }
+        ]
+    },
+    "workExp": [{
+        "org": "Tata Consultancy Services",
+        "img": "/tcs.png",
+        "desc":[
+            "Systems Engineer (2013 - 2015)",
+            "Worked for one of the biggest clients of the organization,Apple for their online applications (OSS, ORS) and customer grievance interface (iLog)",
+            "Worked not only on UI development but have also provided L3 support to end‐users, especially during NPI",
+            "Worked on Javascript ES5, HTML5, CSS3 and Bootstrap"
+        ]
+    },{
+        "org":"Dassault Systemes",
+        "img":"/3ds.png",
+        "desc":[
+            "Research and Development Engineer (2015 - 2018)",
+            "Worked for one of the biggest projects of the organization,Supplier Collaborative Hub (X‐Network) for logging and keeping records of the supply chain data online and also the list of relevant OEMs and Suppliers",
+            "Worked particularly on the frontend part following the Agile methodology religiously",
+            "Along with Javascript ES6, HTML5, CSS3 and Bootstrap, I have also explored the TDD methodology using Karma and Jasmine",
+            "Did some hands‐on forReact JS and NodeJS parallelly"
+        ]
+    },{
+        "org": "Bridgei2i Analytics Solution",
+        "img": "/bi2i.png",
+        "desc":[
+            "Module Lead (2018 - 2019)",
+            "Worked on the Commercial investment Optimizer project for the client, ABInBev using ReactJS, Bootstrap and Material UI",
+            "Worked on the Claims Tracker Application project for our client,Chubb to track fraudulent claims using D3, ES6, HTML5 and CSS3",
+            "Worked on Financial Reporting Toolproject for our client,Macquarie to prepare and download financial reports using ReactJS, Proforma, AG‐Grid and MobX",
+            "Used Bitbucket as the Code repository",
+            "Additionally, I have also mentored and trained colleagues and juniors on UI maturity"
+        ]
+    },{
+        "org": "Maersk GSC",
+        "img":"/maersk.png",
+        "desc":[
+            "Software Engineer - Senior Frontend (2019 - present)",
+            "Worked on the MyFinance application to make online payments, raise disputes, view and download invoices, credits and eStatements using VueJS framework, Github, in‐house Design Systems, TDD and Agile Methodology",
+            "Currently working in the Help and Chat application to raise, withdraw, reopen, view cases and optimize chat based UX using VueJS framework, Github, in‐house Design Systems, TDD and Agile Methodology"
+        ]
+    }],
+    "skills": [
+        {
+            "src": "/html-5.png",
+            "text": "HTML5",
+            "desc": "Skilled for 8+ years. Important for setting up the structure of web application."
+        },
+        {
+            "src": "/css.png",
+            "text": "CSS3",
+            "desc": "Skilled for 8+ years. Important for styling the web pages with proper design standards."
+        },
+        {
+            "src": "/javascript.png",
+            "text": "JavaScript ES6",
+            "desc": "Skilled for 8+ years. Required for adding behaviour and logic to the web application. Adept in both ES5 and ES6+."
+        },
+        {
+            "src": "/vue-js.png",
+            "text": "Vue JS",
+            "desc": "Skilled for 2 years. Framework for developing logical and seamless SPAs with separation of controls."
+        },
+        {
+            "src": "/nodejs.png",
+            "text": "Node JS",
+            "desc": "Skilled for 5+ years. Essential for web application development and installing dependencies."
+        },
+        {
+            "src": "/logo192.png",
+            "text": "React JS",
+            "desc": "Skilled for 3+ years. Framework for easy and lucid development of SPAs with readable structure and logic. Also the most widely used UI framework."
+        },
+        {
+            "src": "/github.png",
+            "text": "Git",
+            "desc": "Skilled for 6+ years. One of the most widely used open source version control management systems."
+        },
+        {
+            "src": "/python.png",
+            "text": "Python",
+            "desc": "Skilled for 1+ years. Essential for back-end development and data sciences"
+        }
+    ],
+    "interests": [
+        {
+            "src": "/bilingual.png",
+            "text": "Linguistics and Grammatology"
+        },
+        {
+            "src": "/traveler.png",
+            "text": "Travelling"
+        },
+        {
+            "src": "/documentary.png",
+            "text": "Documentaries"
+        },
+        {
+            "src":"/cooking.png",
+            "text": "Cooking"
+        }
+    ]
+}

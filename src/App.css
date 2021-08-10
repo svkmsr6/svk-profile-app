@@ -8,6 +8,13 @@
   overflow-x: hidden;
 }
 
+.App-loader {
+  text-align: center;
+  padding-top: 40vh;
+  height: 100vh;
+  font-size: 5rem;
+}
+
 .bg-grey {
   background-color: #afb8f1;
 }
