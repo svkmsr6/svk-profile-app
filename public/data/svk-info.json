@@ -25,7 +25,7 @@
         },
         "quotes": [
             {
-                "text": "'I have around 8 years of experience in the industry, starting off as a simple JavaScript ES5 developer, coupled with HTML5/CSS3 and ending up finally, as a React and VueJS engineer!'"
+                "text": "'I have around 10 years of experience in the industry, starting off as a simple JavaScript ES5 developer, coupled with HTML5/CSS3 and ending up finally, as a Python, React and VueJS engineer!'"
             },
             {
                 "bgColor": "grey",
@@ -73,7 +73,7 @@
         "desc":[
             "Software Engineer - Senior Frontend (2019 - present)",
             "Worked on the MyFinance application to make online payments, raise disputes, view and download invoices, credits and eStatements using VueJS framework, Github, in‐house Design Systems, TDD and Agile Methodology",
-            "Currently working in the Help and Chat application to raise, withdraw, reopen, view cases and optimize chat based UX using VueJS framework, Github, in‐house Design Systems, TDD and Agile Methodology"
+            "Currently working in the Customer Support application to raise, withdraw, reopen, view cases and optimize chat based UX using VueJS framework, Github, in‐house Design Systems, TDD and Agile Methodology"
         ]
     }],
     "skills": [
